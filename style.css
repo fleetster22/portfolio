@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(37, 40, 37);
+}
+.jumbotron {
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  box-shadow: 3px 3px #7a7c66, 3px 2px gray;
+}
+
+#projects {
+  text-align: center;
+}
