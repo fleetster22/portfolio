@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anaka Norfleet's Portfolio</title>
     <link  rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Anaka Norfleet | Software Developer</title> 
 </head>
 <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3">
         <a class="navbar-brand" href="#page-top">Anaka Norfleet</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -20,10 +23,10 @@
               <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -38,52 +41,56 @@
           </ul>
         </div>
       </nav>
-      <div class="container">
-          <div class="jumbotron">
-              <h4>Jr Software Developer</h4>
-              <p>Specializing in Java, React, etc</p>
+
+      <header class="masthead">
+      <div class="container h-100" >
+        <div class="row h-100 align-items-center justify-content-center text-center">
+          <div class="col-lg-10 align-self-end">
+          <h1 class="text-white-75">Welcome to My Portfolio Page</h1>
+          <hr class="divider" />
           </div>
+          <div class="col-lg-8 align-self-baseline">
+            <p class="text-white-75 font-weight-light mb-5">Specializing in Java, React, mySql, Docker, AWS, etc</p>
+            <a class="btn btn-success js-scroll-trigger" href="#about">More Info</a>
+          </div>
+        </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <h1>Welcome to My Portfolio Website</h1>
-      <br />
-      <br />
-      <br />
-      <br />
-      <h4 id="about">About Me</h4>
-      <a href="#">Github</a> 
-      <br>
-      <a href="https://www.linkedin.com/in/anaka-norfleet/" target="_blank">LinkedIn</a>
-      <br />
-      <br />
-      <br />
-      <br />
-      <h4 id="contact">Contact Me</h4>
-      <h5>Call or Text</h5>
-      <p>720-369-6363</p>
-      <h5>Email</h5>
-      <a href = "mailto: anakanorfleet@gmail.com">anakanorfleet@gmail.com</a>
-      
-      <h3 id="projects">Projects</h3>
+    </header>
+    <section class="page-section bg-light" id="about">
+      <h1>About Me</h1>
+      <p>Busey ipsum dolor sit amet. Have you urinated? Have you drained your bladder? Are you free? Because if you haven't it will only come out later. I'm giving you some information that your bodily fluids may penetrate your clothing fibre's without warning.It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs.</section>
+      </p>
+      <section class="page-section bg-dark" id="projects">
+        <h1>Projects</h1>
       <div class="container">
-        <img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg"> 
         <img src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg"> 
-        <img src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg"> 
-    
-        <img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg"> 
+        <img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg">
         <img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg"> 
-        <img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
-    
-        <img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg"> 
-        <img src="http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg"> 
-        <img src="http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg">
       </div>
+    </section>
+      <section class="page-section bg-light" id="contact">
+        <h4>Contact Me</h4>
+        <h5>Call or Text</h5>
+        <p>720-369-6363</p>
+        <h5>Email</h5>
+        <a href = "mailto: anakanorfleet@gmail.com">anakanorfleet@gmail.com</a>
+         <br />
+         <br />
+         <h5>Social Media</h5>
+        <a href="https://fleetster22.github.io/portfolio/.">Github</a> 
+        <br>
+        <a href="https://www.linkedin.com/in/anaka-norfleet/" target="_blank">LinkedIn</a>
+      </section>
+      
+      
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
