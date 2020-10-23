@@ -1,96 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>Anaka Norfleet | Software Developer</title> 
-</head>
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3">
-        <a class="navbar-brand" href="#page-top">Anaka Norfleet</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown" >
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Portfolio
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Cool thing I've done 1</a>
-                <a class="dropdown-item" href="#">Cool thing I've done 2</a>
-                <a class="dropdown-item" href="#">Cool thing I've done 3</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
 
-      <header class="masthead">
-      <div class="container h-100" >
-        <div class="row h-100 align-items-center justify-content-center text-center">
+    <title>Anaka Norfleet | Software Engineer</title>
+  </head>
+  <body id="page-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3"
+      id="mainNav"
+    >
+      <a class="navbar-brand" href="#page-top"
+        ><i class="fas fa-laptop-code mr-2"></i>Anaka Norfleet</a
+      >
+      <button
+        class="navbar-toggler navbar-toggler-right"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarCollapse"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#page-top"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Cool thing I've done 1</a>
+              <a class="dropdown-item" href="#">Cool thing I've done 2</a>
+              <a class="dropdown-item" href="#">Cool thing I've done 3</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div
+          class="row h-100 align-items-center justify-content-center text-center"
+        >
           <div class="col-lg-10 align-self-end">
-          <h1 class="text-white-75">Welcome to My Portfolio Page</h1>
-          <hr class="divider" />
+            <h1 class="text-white-75">Welcome to My Portfolio Page</h1>
+            <hr class="divider" />
           </div>
           <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 font-weight-light mb-5">Specializing in Java, React, mySql, Docker, AWS, etc</p>
-            <a class="btn btn-success js-scroll-trigger" href="#about">More Info</a>
+            <p class="text-white-75 font-weight-light mb-5">
+              Specializing in Java, React, mySql, Docker, AWS, etc
+            </p>
+            <a class="btn btn-success js-scroll-trigger" href="#about"
+              >More Info</a
+            >
           </div>
         </div>
       </div>
     </header>
     <section class="page-section bg-light" id="about">
-      <h1>About Me</h1>
-      <p>Busey ipsum dolor sit amet. Have you urinated? Have you drained your bladder? Are you free? Because if you haven't it will only come out later. I'm giving you some information that your bodily fluids may penetrate your clothing fibre's without warning.It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs.</section>
-      </p>
-      <section class="page-section bg-dark" id="projects">
-        <h1>Projects</h1>
       <div class="container">
-        <img src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg"> 
-        <img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg">
-        <img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg"> 
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="mt-0">About Me</h2>
+            <hr class="divider" />
+            <p class="">
+              What sets me apart from everyone else stems from my background in
+              nursing. During my 14+ years as an ER nurse, I have honed my
+              communication skills by greeting people on one of the worst days
+              of their lives, calming their fears and building their trust by
+              employing active listening and then using the information obtained
+              to combine with my technical skills to not only find a solution
+              that meets their needs, but also allows me to anticipate needs
+              they may not even know they have yet. I believe the key components
+              of customer service include not only listening to the customer,
+              but knowing what questions to ask in order to dig a little deeper.
+              What a person perceives as their biggest problem is often not the
+              root of the actual problem. My process of extracting information,
+              using critical thinking to evaluate and prioritize what’s
+              important and then employing the necessary technical skills to
+              solve the problem is what enables me to efficiently create a
+              solution to whatever problem a customer may experience.
+            </p>
+            <p>
+              During that time as an ER nurse, I was challenged many times to
+              think outside of the box in order to treat unique situations that
+              people sometimes find themselves in. Never knowing what is coming
+              through the door at any moment has prepared me to remain calm and
+              think clearly under extremely stressful situations. Critical
+              thinking coupled with creativity is the basis of ER nursing.
+            </p>
+            <p>
+              I believe this combination of skills is not only rare to find in
+              someone else, but it also extremely valuable to have as one of
+              your employees.
+            </p>
+            <a class="btn btn-danger mt-3 js-scroll-trigger" href="#contact"
+              >Contact Me</a
+            >
+          </div>
+        </div>
       </div>
     </section>
-      <section class="page-section bg-light" id="contact">
-        <h4>Contact Me</h4>
-        <h5>Call or Text</h5>
-        <p>720-369-6363</p>
-        <h5>Email</h5>
-        <a href = "mailto: anakanorfleet@gmail.com">anakanorfleet@gmail.com</a>
-         <br />
-         <br />
-         <h5>Social Media</h5>
-        <a href="https://fleetster22.github.io/portfolio/.">Github</a> 
-        <br>
-        <a href="https://www.linkedin.com/in/anaka-norfleet/" target="_blank">LinkedIn</a>
-      </section>
-      
-      
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="script.js"></script>
 
-</body>
+    <section class="page-section bg-dark" id="portfolio">
+      <div class="container fluid p-0">
+        <div class="row no gutters">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="images/Mando1.png">
+              <img class="img-fluid" src="images/Mando1.png" />
+              <div class="portfolio-box-caption">
+                <div class="project-category">Something</div>
+                <div class="project-name">Project Name</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="images/Mando2.png">
+              <img class="img-fluid" src="images/Mando2.png" />
+              <div class="portfolio-box-caption">
+                <div class="project-category">Something</div>
+                <div class="project-name">Project Name</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="images/Mando3.png">
+              <img class="img-fluid" src="images/Mando3.png" />
+              <div class="portfolio-box-caption">
+                <div class="project-category">Something</div>
+                <div class="project-name">Project Name</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section bg-dark text-white-75">
+      <h2 class="mb-4 text-center">Visit my github</h2>
+      <a
+        class="btn btn-danger mt-3 js-scroll-trigger"
+        href="https://fleetster22.github.io/portfolio/."
+        >Github</a
+      >
+    </section>
+
+    <section class="page-section bg-light" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="mt-0">Contact Me</h2>
+            <hr class="divider" />
+            <p class="">blah blah blah</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-2x mb-3 text-muted"></i>
+            <div>720-369-6363</div>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-2x mb-3 text-muted"></i>
+            <a class="d-block" href="mailto: anakanorfleet@gmail.com"
+              >anakanorfleet@gmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
 </html>

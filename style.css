@@ -1,14 +1,3 @@
-img {
-  width: 30%;
-  float: left;
-  margin: 1.66%;
-  box-shadow: 3px 3px #7a7c66, 3px 2px gray;
-}
-
-#projects {
-  text-align: center;
-}
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10482,7 +10471,8 @@ hr.light {
   color: #f4623a;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: ghostwhite !important;
+  font-size: 1.1rem;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10509,17 +10499,14 @@ hr.light {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
   }
-  #mainNav.navbar-scrolled .navbar-brand {
-    color: #212529;
-  }
+
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: ghostwhite;
   }
-  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
-  }
+
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: ghostwhite;
+    font-size: 1.1rem;
   }
 }
 
