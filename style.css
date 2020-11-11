@@ -95,26 +95,24 @@ p {
   margin-bottom: 1rem;
 }
 
-p span::before {
+h3 span::before {
   content: "";
   color: rgb(214, 148, 5);
   animation: profile 8s infinite;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 @keyframes profile {
   0% {
-    content: "Github";
+    content: "Java";
   }
-  20% {
+  25% {
     content: "React";
   }
-  40% {
+  50% {
     content: "mySql";
   }
-  60% {
-    content: "Sec+";
-  }
-  80% {
+
+  75% {
     content: "Linux";
   }
   100% {
