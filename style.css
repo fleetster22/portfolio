@@ -97,27 +97,41 @@ p {
 
 h3 span::before {
   content: "";
-  color: rgb(214, 148, 5);
+
   animation: profile 8s infinite;
   font-size: 2rem;
 }
 @keyframes profile {
   0% {
     content: "Java";
+    color: #ff4a4a;
   }
-  25% {
-    content: "React";
+  20% {
+    content: "Google Hacking";
+    color: #fbbc04;
   }
-  50% {
-    content: "mySql";
+  40% {
+    content: "Github";
+    color: #e0dede;
   }
-
-  75% {
+  60% {
     content: "Linux";
+    color: #f7c700;
+  }
+  80% {
+    content: "Python";
+    color: #6e9bbd;
   }
   100% {
     content: "Java";
+    color: #ff4a4a;
   }
+}
+
+.section-title {
+  color: ghostwhite;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 abbr[title],
@@ -5867,11 +5881,10 @@ a.close.disabled {
 }
 
 .modal-footer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 0.75rem;
+  display: felx;
+  width: 100%;
+  background-color: silver;
+  text-align: center;
   border-top: 1px solid #dee2e6;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
