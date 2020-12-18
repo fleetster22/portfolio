@@ -107,7 +107,7 @@ h3 span::before {
     color: #ff4a4a;
   }
   20% {
-    content: "Google Hacking";
+    content: "Google Dorking";
     color: #fbbc04;
   }
   40% {
@@ -115,7 +115,7 @@ h3 span::before {
     color: #e0dede;
   }
   60% {
-    content: "Linux";
+    content: "Kali Linux";
     color: #f7c700;
   }
   80% {
