@@ -103,11 +103,11 @@ h3 span::before {
 }
 @keyframes profile {
   0% {
-    content: "Java";
+    content: "Python";
     color: #ff4a4a;
   }
   20% {
-    content: "Google Dorking";
+    content: "Powershell";
     color: #fbbc04;
   }
   40% {
@@ -119,11 +119,11 @@ h3 span::before {
     color: #f7c700;
   }
   80% {
-    content: "Python";
+    content: "Bash";
     color: #6e9bbd;
   }
   100% {
-    content: "Java";
+    content: "Python";
     color: #ff4a4a;
   }
 }
