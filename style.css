@@ -25,8 +25,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  --font-family-sans-serif: "Source Code Pro", -apple-system, BlinkMacSystemFont, "Fira Code", Roboto,
+    "Helvetica Neue", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
     monospace;
@@ -60,7 +60,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+  font-family: "Source Code Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Code",
     "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
@@ -86,11 +86,13 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Source Code Pro";
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
 p {
+  font-family: "Fira Code";
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -103,7 +105,7 @@ h3 span::before {
 }
 @keyframes profile {
   0% {
-    content: "Python";
+    content: "Java";
     color: #ff4a4a;
   }
   20% {
@@ -111,7 +113,7 @@ h3 span::before {
     color: #fbbc04;
   }
   40% {
-    content: "SQL";
+    content: "mySQL";
     color: #e0dede;
   }
   60% {
@@ -119,11 +121,11 @@ h3 span::before {
     color: #f7c700;
   }
   80% {
-    content: "Keap Apps";
+    content: "RESTful APIs";
     color: #6e9bbd;
   }
   100% {
-    content: "Python";
+    content: "Java";
     color: #ff4a4a;
   }
 }
