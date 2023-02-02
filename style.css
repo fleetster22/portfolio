@@ -99,32 +99,33 @@ h3 span::before {
   content: "";
 
   animation: profile 8s infinite;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 @keyframes profile {
   0% {
     content: "Java";
-    color: #ff4a4a;
+    color: #090909;
   }
   20% {
     content: "Spring Boot";
-    color: #fbbc04;
+    color: #090909;
   }
   40% {
     content: "mySQL";
-    color: #e0dede;
+    color: #090909;
   }
   60% {
     content: "AWS";
-    color: #f7c700;
+    color: #090909;
   }
   80% {
-    content: "Web Applications";
-    color: #6e9bbd;
+    content: "Javascript";
+    color: #090909;
   }
   100% {
     content: "Java";
-    color: #ff4a4a;
+    color: #090909;
   }
 }
 
@@ -2835,7 +2836,7 @@ fieldset:disabled a.btn {
 .btn-danger {
   border-radius: 7px;
   color: ghostwhite;
-  background-color: #8b1e0b;
+  background-color: #3ca33f;
   border-color: #7b1b25;
 }
 .btn-danger:hover {
@@ -10510,7 +10511,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("bg.jpg");
+  background: radial-gradient(rgba(60, 163, 63, 0.73) 0%, rgba(9, 9, 9, 0.73) 60%), url("/images/left-right-brain.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
