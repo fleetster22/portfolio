@@ -2837,12 +2837,12 @@ fieldset:disabled a.btn {
   border-radius: 7px;
   color: ghostwhite;
   background-color: #3ca33f;
-  border-color: #7b1b25;
+  border-color: #000000;
 }
 .btn-danger:hover {
   color: #fff;
   background-color: #434141;
-  border-color: #434141;
+  border-color: #9fc131;
 }
 .btn-danger:focus,
 .btn-danger.focus {
@@ -10415,9 +10415,9 @@ html {
 }
 
 hr.divider {
-  max-width: 12.25rem;
+  max-width: 22rem;
   border-width: 0.2rem;
-  border-color: #8b1e0b;
+  border-color: #9fc131;
 }
 
 hr.light {
@@ -10511,7 +10511,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: radial-gradient(rgba(60, 163, 63, 0.73) 0%, rgba(9, 9, 9, 0.73) 60%), url("/images/left-right-brain.png");
+  background-color: #4f89df;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
